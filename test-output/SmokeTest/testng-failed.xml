@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTest]" parallel="none">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="MBEPtests]">
+    <classes>
+      <class name="com.emdcs.qa.testdata.LoginPageTest"/>
+    </classes>
+  </test> <!-- MBEPtests] -->
+  <test name="MBEPtests](failed)" parallel="none">
+    <classes>
+      <class name="com.emdcs.qa.testdata.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.emdcs.qa.testdata.LoginPageTest -->
+    </classes>
+  </test> <!-- MBEPtests](failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

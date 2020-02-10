@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTest" verbose="1" >
+<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  <test name="MBEPtests]" >
+    <classes>
+       <class name="com.emdcs.qa.testdata.LoginPageTest"/>
+    </classes>
+  </test>
+</suite>

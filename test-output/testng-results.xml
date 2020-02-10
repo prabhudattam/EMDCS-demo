@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39740" started-at="2020-02-07T14:51:34 IST" finished-at="2020-02-07T14:52:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39740" started-at="2020-02-07T14:51:34 IST" finished-at="2020-02-07T14:52:14 IST">
+      <class name="com.emdcs.qa.testdata.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.emdcs.qa.testdata.LoginPageTest@64729b1e]" name="setUp" is-config="true" duration-ms="26752" started-at="2020-02-07T14:51:34 IST" finished-at="2020-02-07T14:52:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.emdcs.qa.testdata.LoginPageTest@64729b1e]" name="loginTest" duration-ms="12948" started-at="2020-02-07T14:52:01 IST" description="Verify Vechile Transfer application" finished-at="2020-02-07T14:52:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.emdcs.qa.testdata.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
