@@ -2,19 +2,23 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39740" started-at="2020-02-07T14:51:34 IST" finished-at="2020-02-07T14:52:14 IST">
+  <suite name="Default suite" duration-ms="40442" started-at="2020-02-10T17:19:12 IST" finished-at="2020-02-10T17:19:52 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39740" started-at="2020-02-07T14:51:34 IST" finished-at="2020-02-07T14:52:14 IST">
+    <test name="Default test" duration-ms="40442" started-at="2020-02-10T17:19:12 IST" finished-at="2020-02-10T17:19:52 IST">
       <class name="com.emdcs.qa.testdata.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.emdcs.qa.testdata.LoginPageTest@64729b1e]" name="setUp" is-config="true" duration-ms="26752" started-at="2020-02-07T14:51:34 IST" finished-at="2020-02-07T14:52:01 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.emdcs.qa.testdata.LoginPageTest@10bbd20a]" name="setUp" is-config="true" duration-ms="26617" started-at="2020-02-10T17:19:12 IST" finished-at="2020-02-10T17:19:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.emdcs.qa.testdata.LoginPageTest@64729b1e]" name="loginTest" duration-ms="12948" started-at="2020-02-07T14:52:01 IST" description="Verify Vechile Transfer application" finished-at="2020-02-07T14:52:14 IST">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.emdcs.qa.testdata.LoginPageTest@10bbd20a]" name="loginTest" duration-ms="13012" started-at="2020-02-10T17:19:38 IST" description="Verify Vechile Transfer application" finished-at="2020-02-10T17:19:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.emdcs.qa.testdata.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="770" started-at="2020-02-10T17:19:51 IST" finished-at="2020-02-10T17:19:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.emdcs.qa.testdata.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -31,15 +31,15 @@ public class LoginPageTest extends TestBase{
 		Thread.sleep(5000);
 		System.out.println("Select the Delaer Code");
 		Select Dealer = new Select(driver.findElement(By.name("dealerCodeSelect")));
-		Dealer.selectByVisibleText("10102");
+		Dealer.selectByVisibleText("1010222");
 		System.out.println("showing retrieve inventory list");
 		driver.findElement(By.xpath("/html/body/form/div[1]/table/tbody/tr[5]/td/div/font/a")).click(); 
 		Thread.sleep(5000);
 	}
-	/*@AfterMethod
+	@AfterMethod
 	public void tearDown() {
 		System.out.println("Closing Browser");
 			driver.quit();	
-	}*/
+	}
 
 }
