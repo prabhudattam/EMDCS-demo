@@ -31,7 +31,7 @@ public class LoginPageTest extends TestBase{
 		Thread.sleep(5000);
 		System.out.println("Select the Delaer Code");
 		Select Dealer = new Select(driver.findElement(By.name("dealerCodeSelect")));
-		Dealer.selectByVisibleText("1010222");
+		Dealer.selectByVisibleText("10102");
 		System.out.println("showing retrieve inventory list");
 		driver.findElement(By.xpath("/html/body/form/div[1]/table/tbody/tr[5]/td/div/font/a")).click(); 
 		Thread.sleep(5000);
